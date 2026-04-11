@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Database files (binary, can be regenerated from CSV)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Generated analysis artifacts
+analysis/charts/*.png
+analysis/output_part*.txt
+stats_output.txt
+
+# SQL scratch files
+SQLFile*.sql
+SQLQuery*.sql
+
+# Keep only CSV data files under data/
+data/*
+!data/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+

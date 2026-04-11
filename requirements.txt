@@ -1,0 +1,9 @@
+# Crawler
+requests>=2.32.5
+urllib3>=2.6.3
+
+# SQL Server sink
+pyodbc>=5.1.0
+
+# S3 sink
+boto3>=1.36.0
